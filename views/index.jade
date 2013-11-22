@@ -9,3 +9,8 @@ html(lang="en")
       input(type="text", name="explain")
 
       input(type="submit", value="Submit")
+
+  h1= 'song meanings'
+  - each songmeaning in songmeanings
+    div.songmeanings
+      p= songmeaning.comment 

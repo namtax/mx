@@ -3,7 +3,8 @@
   "dependencies" : {  
     "express": "3.4.4",
     "ejs": "",
-    "jade": "*"
+    "jade": "*",
+    "mongodb": "*"
 }, 
  "devDependencies" : { 
    "should" : "*"
