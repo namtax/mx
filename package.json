@@ -4,7 +4,8 @@
     "express": "3.4.4",
     "ejs": "",
     "jade": "*",
-    "mongodb": "*"
+    "mongodb": "*",
+    "stylus": "*"
 }, 
  "devDependencies" : { 
    "should" : "*"
