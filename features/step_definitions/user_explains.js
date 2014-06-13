@@ -2,7 +2,7 @@ var UserExplainsSteps = function() {
   this.World = require("../support/world.js").World;
 
   this.When(/^I visit a song meaning page$/, function(callback) {
-    this.visit("http://localhost:8888",callback);
+    this.visit("http://localhost:8888/boards-of-canada/music-has-the-right-to-children/an-eagle-in-your-mind",callback);
   });
 
   this.When(/^I submit a song meaning$/, function(callback) {

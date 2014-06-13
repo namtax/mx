@@ -1,0 +1,21 @@
+doctype 5
+html(lang="en")
+  head
+    title= musicexplained
+    link(href='/stylesheets/format.css', rel='stylesheet')
+  body
+    h1 Mx
+    .container
+      if track
+        img(src="#{track.image[4]['#text']}")
+      .main-content
+        form(name="input" action="/create", method="post")
+          | Explain:
+          input(type="text", name="explain")
+
+          input(type="submit", value="Submit")
+
+        h1= 'song meanings'
+        - each songmeaning in songmeanings
+          div.songmeanings
+            p= songmeaning.comment

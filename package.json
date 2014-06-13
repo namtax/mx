@@ -5,7 +5,9 @@
     "ejs": "",
     "jade": "*",
     "mongodb": "*",
-    "stylus": "*"
+    "stylus": "*",
+    "nib":"*",
+    "lastfmapi": "*"
 },
  "devDependencies" : {
    "cucumber": "latest",

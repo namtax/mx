@@ -1,9 +1,9 @@
-doctype 5 
+doctype 5
 html(lang="en")
   head
     title= musicexplained
-  body 
-    h1 MX
+  body
+    h1 MXplained
     form(name="input" action="/create", method="post")
       | Explain:
       input(type="text", name="explain")
@@ -13,4 +13,4 @@ html(lang="en")
   h1= 'song meanings'
   - each songmeaning in songmeanings
     div.songmeanings
-      p= songmeaning.comment 
+      p= songmeaning.comment
